@@ -51,11 +51,7 @@ body
 	margin: auto;
 }
 
-#bloc_page_contact
-{
-	width: 900px;
-	margin: auto;
-}
+
 /*
 section h1, footer h1, nav a
 {
@@ -88,12 +84,7 @@ header
 	flex-direction: row;
 }
 
-#logo_contact
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
+
 
 #logo img
 {
@@ -101,12 +92,6 @@ header
 	height: 100px;
 }
 
-
-#logo_contact img
-{
-	width:  200px;
-	height: 200px;
-}
 
 header h1
 {
