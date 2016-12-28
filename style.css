@@ -82,3 +82,25 @@ header
 	display: flex;
 	flex-direction: row;
 }
+
+#logo img
+{
+	width:  100px;
+	height: 100px;
+}
+
+header h1
+{
+	font-family: 'BallparkWeiner' serif
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+}
+
+header h2
+{
+	font-family: Dayrom, serif
+	font-size: 10.5em;
+	font-weight: normal;
+	margin-top: 0px
+}
