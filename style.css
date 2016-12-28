@@ -134,3 +134,92 @@ nav a:hover
 	color: #760001;
 	border-bottom: 3px solid #760001
 }
+
+/* conteneur d'image */
+
+#conteneur_image
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.photo
+{
+	margin: auto;
+}
+
+#slogant
+{
+	display: flex;
+	justify-content: center;
+	background-color: #7474F2
+}
+
+#slogant h1
+{
+	font-family: "Times New Roman", Verdana, Georgia, Arial, serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 15px;
+
+}
+
+/* Article */
+
+
+section nav
+{
+	/*
+	display: flex;
+	flex-direction: column;*/
+	background-color: #B6F2EB
+}
+
+section ul
+{
+	display: flex;
+	flex-direction: column;
+	list-style-type: circle;
+}
+
+section p
+{
+	font-family:  Verdana, Georgia, Arial, serif;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#conteneur
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 350px;
+}
+
+.element
+{
+	padding-left: 150px;
+}
+
+.element:nth-child(1)
+{
+	background-color: #83EB5E
+}
+
+.element:nth-child(2)
+{
+	background-color: #EAF043
+}
+
+.element:nth-child(3)
+{
+	background-color: #F0A76C
+}
+
+.element:nth-child(4)
+{
+	background-color: #59E04A
+}
