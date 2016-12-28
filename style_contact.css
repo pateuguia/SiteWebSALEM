@@ -33,6 +33,32 @@ body
 	color: #181818;
 }
 
+/* Header */
+
+header
+{
+	background: url('images/separateur.png') repeat-x bottom;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+header h1
+{
+	font-family: 'BallparkWeiner', serif;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+}
+
+body h2
+{
+	font-family: Verdana, Georgia, "Times New Roman", Arial, serif;
+	font-size: 1em;
+	font-weight: normal;
+	margin-top: 0px;
+}
 #bloc_page_contact
 {
 	width: 900px;
@@ -42,6 +68,53 @@ body
 #logo_contact
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	flex-direction: column;
+}
+
+#logo_contact img
+{
+	width: 200px;
+	height: 200px;
+}
+
+/* Navigation */
+
+#conteneur
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 350px;
+}
+
+.element
+{
+	margin-left: 150px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: wrap;
+}
+
+nav li
+{
+	padding-right: 20px;
+	font-size: 1.2em;
+}
+
+nav a
+{
+	font-size: 1.2em;
+	color: #181818;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #760001;
+	border-bottom: 3px solid #760001
 }

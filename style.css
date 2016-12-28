@@ -95,7 +95,7 @@ header
 
 header h1
 {
-	font-family: 'BallparkWeiner', serif;
+	font-family: Georgia, Verdana, "Times New Roman", Arial, serif;serif;
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0 0 0 10px;
@@ -107,6 +107,7 @@ header h2
 	font-size: 1.2em;
 	font-weight: normal;
 	margin-top: 0px;
+	font-weight: bold;
 }
 
 nav ul
